@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    height: 100vh;
+    font-size: 16px;
+    position: relative;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.parent-box {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+   
+}
+
+.plan-box {
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    margin: 15px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+h2.title {
+    text-align: center;
+}
+
+p.subtitle {
+    text-align: center;
+    
+}
+
+.plan-box-left {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.title {
+    margin: 10px;
+}
+
+div.butong {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.text-content {
+    padding: 10px;
+    margin-bottom: -25px;
+}
+
+div.hero {
+    align-self: center;
+}
+
+div.link-right {
+    align-self: center;
+}
+
+div.price {
+    align-items: center;
+    text-align: left;
+}
